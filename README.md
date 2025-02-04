@@ -1,4 +1,5 @@
 #generate a message based on a spritesheet (the spritesheet has all the letters, numbers & some special characters)
+
 def generate_message(message, pos, scale, gap, special_flags = None):
 	if special_flags == "inv.man.digit":
 		if not int(message) >= 10:
